@@ -6,13 +6,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 120px;
 
   .logo {
     height: 42px;
     width: 92px;
-    //border: 2px solid $site-white;
   }
-
   .links {
     display: flex;
     align-items: center;
@@ -23,10 +22,9 @@ nav {
       font-size: 15px;
       text-decoration: none;
     }
-
     span {
       margin: 0 10px;
-      color: $site-pink;
+      color: $site-blue;
       font-size: 20px;
     }
   }
