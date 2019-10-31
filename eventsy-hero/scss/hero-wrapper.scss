@@ -2,11 +2,11 @@
   width: 100%;
   height: 500px;
   background-color: $site-yellow;
+  //background-color: aqua;
 
   .hero {
-    width: 1280px;
     height: 100%;
-    margin: 0 auto;
+    @include center-content(1280px);
     display: flex;
     flex-direction: column;
     align-items: center;

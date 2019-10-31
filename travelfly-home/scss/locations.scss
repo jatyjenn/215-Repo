@@ -1,0 +1,117 @@
+.locations {
+  width: 100%;
+  height: 200px;
+  background-color: $site-white;
+
+  .locations-container {
+    width: 1000px;
+    height: 400px;
+    //background-color: pink;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    p {
+      font-size: 36px;
+      color: $site-white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding-bottom: 60px;
+      margin-left: 60px;
+      margin-top: -30px;
+      // background-color: aqua;
+    }
+  }
+  .israel {
+    width: 236px;
+    height: 304px;
+    //  background-color: chartreuse;
+    //margin-left: 30px;
+    margin-top: -120px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+      font-size: 72px;
+      color: $site-white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 50px;
+      margin-top: 50px;
+    }
+  }
+
+  .usa {
+    width: 236px;
+    height: 304px;
+    //background-color: yellow;
+    margin-top: -120px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+      font-size: 72px;
+      color: $site-white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 60px;
+      margin-top: 50px;
+    }
+  }
+
+  .Austrailia {
+    width: 236px;
+    height: 304px;
+    //background-color: black;
+    margin-top: -120px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+      font-size: 72px;
+      color: $site-white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 20px;
+      margin-top: 50px;
+    }
+  }
+  .site-button {
+    padding: 10px 25px;
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    margin-left: 45px;
+    border-radius: 20px;
+  }
+}

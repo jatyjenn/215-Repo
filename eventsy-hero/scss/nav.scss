@@ -1,5 +1,7 @@
 nav {
-  width: 980px;
+  position: relative;
+  z-index: 99;
+  width: 80%;
   height: 92px;
   //background-color: aqua;
   border-bottom: 2px solid $site-white;
@@ -12,22 +14,65 @@ nav {
     width: 92px;
     //border: 2px solid $site-white;
   }
-
-  .links {
+  .link-wrap {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-transform: lowercase;
-    a {
-      color: $site-white;
-      font-size: 15px;
-      text-decoration: none;
-    }
 
-    span {
-      margin: 0 10px;
-      color: $site-pink;
-      font-size: 20px;
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $site-white;
+        font-size: 15px;
+        text-decoration: none;
+      }
+
+      span {
+        margin: 0 10px;
+        color: $site-pink;
+        font-size: 28px;
+      }
+
+      .navicon {
+        display: none;
+        color: $site-white;
+        font-size: 120%;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    .link-wrap {
+      //background-color: blueviolet;
+      .links {
+        display: none;
+        background-color: gray;
+        flex-direction: column;
+        margin-top: 250px;
+        margin-right: -30px;
+        width: 200px;
+
+        a {
+          margin-bottom: 20px;
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+      .navicon {
+        display: block;
+
+        &:hover > .links {
+          display: block;
+        }
+      }
     }
   }
 }
