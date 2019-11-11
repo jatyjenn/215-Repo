@@ -1,31 +1,92 @@
 nav {
   width: 980px;
   height: 92px;
+  //z-index: 99;
   //background-color: aqua;
   border-bottom: 2px solid $site-white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 120px;
+  // margin-left: 120px;
+  //position: relative;
 
   .logo {
     height: 42px;
     width: 92px;
   }
-  .links {
+
+  .link-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-transform: lowercase;
-    a {
-      color: $site-white;
-      font-size: 15px;
-      text-decoration: none;
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $site-white;
+        font-size: 15px;
+        text-decoration: none;
+        // background-color: aquamarine;
+      }
+      span {
+        margin: 0 10px;
+        color: $site-blue;
+        font-size: 20px;
+      }
     }
-    span {
-      margin: 0 10px;
-      color: $site-blue;
-      font-size: 20px;
+  }
+}
+
+nav #hamburger {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  display: none;
+
+  .line {
+    height: 5px;
+    width: 30px;
+    background-color: black;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .link-wrapper {
+      .links {
+        display: none;
+        // background-color: firebrick;
+        flex-direction: column;
+        width: 50px;
+        //margin-left: 500px;
+        text-decoration: none;
+
+        a {
+          //background-color: chartreuse;
+          text-decoration: none;
+          color: $site-white;
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+      #hamburger {
+        display: block;
+        //background-color: aqua;
+        margin-right: 12px;
+      }
+      &:hover > .links {
+        display: block;
+        margin-top: 230px;
+      }
     }
   }
 }
