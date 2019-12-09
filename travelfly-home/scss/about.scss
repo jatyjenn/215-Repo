@@ -1,0 +1,239 @@
+.about {
+  height: 1200px;
+  width: 1280px;
+  //background-color: goldenrod;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  nav {
+    width: 980px;
+    height: 92px;
+    //z-index: 99;
+    //background-color: aqua;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    //position: relative;
+
+    .logo2 {
+      height: 42px;
+      width: 92px;
+    }
+
+    .link-wrapper2 {
+      display: flex;
+      align-items: center;
+      .links2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: lowercase;
+        //background-color: aqua;
+        a {
+          color: black;
+          font-size: 15px;
+          text-decoration: none;
+          // background-color: aquamarine;
+        }
+        span {
+          margin: 0 10px;
+          color: $site-blue;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .about-content {
+    width: 100%;
+    height: 100%;
+    //background-color: aqua;
+    .client-container01 {
+      //background-color: hotpink;
+      height: 200px;
+      width: 725px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //padding-right: 80px;
+      margin-top: 20px;
+
+      .image01 {
+        //background-color: darkkhaki;
+        width: 400px;
+        height: 150px;
+        margin-bottom: 40px;
+        background-image: linear-gradient(
+            to right,
+            rgba($site-black, 0),
+            rgba($site-black, 0)
+          ),
+          url(../images/about-client-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .text01 {
+        //background-color: firebrick;
+        width: 385px;
+        height: 102px;
+        margin-left: 30px;
+        margin-bottom: 90px;
+      }
+      span {
+        color: $site-blue;
+        font-size: 20px;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        width: 200px;
+        margin-top: 120px;
+        //background-color: aquamarine;
+      }
+    }
+
+    .client-container02 {
+      //background-color: sandybrown;
+      height: 200px;
+      width: 725px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //padding-right: 80px;
+      .image02 {
+        // background-color: darkkhaki;
+        width: 400px;
+        height: 150px;
+        //margin-bottom: 40px;
+        background-image: linear-gradient(
+            to right,
+            rgba($site-black, 0),
+            rgba($site-black, 0)
+          ),
+          url(../images/about-client-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+      }
+
+      .text02 {
+        //background-color: firebrick;
+        width: 405px;
+        height: 102px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+      }
+      span {
+        color: $site-blue;
+        font-size: 20px;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        width: 200px;
+        margin-top: 120px;
+        //background-color: aquamarine;
+      }
+    }
+
+    .head {
+      width: 165px;
+      //background-color: chartreuse;
+      margin-top: 110px;
+      margin-left: 150px;
+      h1 {
+        font-size: 60px;
+        border-bottom: 2px solid black;
+        //font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        //font-style: thin;
+        letter-spacing: 4px;
+      }
+    }
+
+    .about-text {
+      width: 980px;
+      height: 96px;
+      margin-top: 40px;
+      margin-left: 150px;
+      p {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 100px;
+      }
+      .spin {
+        height: 50px;
+        width: 250px;
+        h1 {
+          width: 500px;
+          //background-color: aqua;
+          font-family: proxima-nova-extra-condensed, sans-serif;
+          font-weight: 400;
+          font-style: thin;
+          font-size: 40px;
+          letter-spacing: 15px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 260px;
+          //padding-top: 20px;
+          border-bottom: 2px solid black;
+        }
+      }
+    }
+  }
+
+  nav #hamburger {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    display: none;
+
+    .line {
+      height: 5px;
+      width: 30px;
+      background-color: black;
+      margin: 5px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      //background-color: khaki;
+      .link-wrapper2 {
+        .links2 {
+          display: none;
+          background-color: $site-blue;
+          flex-direction: column;
+          width: 50px;
+          //margin-left: 500px;
+          text-decoration: none;
+
+          a {
+            //background-color: chartreuse;
+            text-decoration: none;
+            color: $site-white;
+          }
+
+          span {
+            display: none;
+          }
+        }
+
+        #hamburger {
+          display: block;
+          //background-color: aqua;
+          margin-right: 12px;
+        }
+        &:hover > .links2 {
+          display: block;
+          margin-top: 230px;
+        }
+      }
+    }
+  }
+}

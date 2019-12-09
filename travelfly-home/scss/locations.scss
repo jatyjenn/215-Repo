@@ -1,7 +1,7 @@
 .locations {
   width: 100%;
   max-height: 1500px;
-  // background-color: darkcyan;
+  //background-color: darkcyan;
   margin-bottom: 100px;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
   .locations-container {
     width: 980px;
     height: 100%;
-    // background-color: pink;
+    //background-color: pink;
     // margin-left: 230px;
     display: flex;
     align-items: center;
@@ -123,6 +123,7 @@
 
 @media only screen and (max-width: 1000px) {
   .locations-container {
+    display: flex;
     //max-height: 120%;
     //background-color: lightgreen;
     flex-direction: column;

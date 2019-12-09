@@ -1,0 +1,207 @@
+.offer {
+  width: 1280px;
+  height: 1066px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  nav {
+    width: 980px;
+    height: 92px;
+    //z-index: 99;
+    //background-color: aqua;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    //position: relative;
+
+    .logo2 {
+      height: 42px;
+      width: 92px;
+    }
+
+    .link-wrapper2 {
+      display: flex;
+      align-items: center;
+      .links2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: lowercase;
+        //background-color: aqua;
+        a {
+          color: black;
+          font-size: 15px;
+          text-decoration: none;
+          // background-color: aquamarine;
+        }
+        span {
+          margin: 0 10px;
+          color: $site-blue;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .spo-content {
+    width: 100%;
+    height: 100%;
+    //background-color: aqua;
+    .offer-container {
+      //background-color: seagreen;
+      height: 300px;
+      width: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //padding-right: 80px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+      .sp-img1 {
+        background-color: darkkhaki;
+        width: 199px;
+        height: 287px;
+        //margin-bottom: 40px;
+        background-image: linear-gradient(
+            to right,
+            rgba($site-black, 0),
+            rgba($site-black, 0)
+          ),
+          url(../images/special-offer-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .spt01 {
+        //background-color: firebrick;
+        width: 290px;
+        height: 300px;
+        margin-left: 30px;
+        //margin-bottom: 180px;
+        h1 {
+          font-family: proxima-nova-extra-condensed, sans-serif;
+          font-weight: 400;
+          letter-spacing: 7px;
+          font-size: 30px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 155px;
+          //padding-top: 20px;
+          border-bottom: 2px solid black;
+        }
+      }
+      span {
+        color: #ff7d38;
+        font-size: 20px;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        width: 200px;
+        margin-left: 5px;
+        //margin-top: 120px;
+        //background-color: aquamarine;
+      }
+    }
+
+    .offer-container02 {
+      //background-color: orange;
+      height: 300px;
+      width: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //padding-right: 80px;
+      .sp-img2 {
+        background-color: darkkhaki;
+        width: 199px;
+        height: 287px;
+        //margin-bottom: 40px;
+        background-image: linear-gradient(
+            to right,
+            rgba($site-black, 0),
+            rgba($site-black, 0)
+          ),
+          url(../images/special-offer-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // padding-left: 30px;
+      }
+
+      .spt02 {
+        //background-color: firebrick;
+        width: 290px;
+        height: 300px;
+        margin-left: 30px;
+        //margin-bottom: 180px;
+        h1 {
+          font-family: proxima-nova-extra-condensed, sans-serif;
+          font-weight: 400;
+          letter-spacing: 7px;
+          font-size: 30px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 166px;
+          //padding-top: 20px;
+          border-bottom: 2px solid black;
+        }
+      }
+      span {
+        color: #ff7d38;
+        font-size: 20px;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        width: 200px;
+        margin-left: 5px;
+        //margin-top: 120px;
+        //background-color: aquamarine;
+      }
+    }
+    .site-button {
+      margin-top: 40px;
+      //margin-bottom: 100px;
+      //margin-right: 100px;
+      width: 133px;
+      height: 40px;
+      background-color: #79addc;
+      border-radius: 30px;
+      border: 1px solid transparent;
+      font-size: 15px;
+      font-weight: 200;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: $site-white;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .spo {
+    margin-top: 70px;
+    margin-right: 750px;
+    h1 {
+      //width: 150px;
+      //background-color: chartreuse;
+      font-size: 30px;
+      //border-bottom: 2px solid black;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      //font-style: thin;
+      letter-spacing: 4px;
+    }
+    h1:after {
+      content: "";
+      display: block;
+      width: 135px;
+      //padding-top: 20px;
+      border-bottom: 2px solid black;
+    }
+  }
+}
