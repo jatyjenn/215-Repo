@@ -1,0 +1,58 @@
+.help {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(22, 18, 27);
+  background-image: url(../images/NFL20.jpg);
+
+  .help-cont {
+    height: 600px;
+    width: 100%;
+    //background-color: aqua;
+
+    h1 {
+      text-decoration: none;
+      color: white;
+      font-weight: lighter;
+      font-size: 200%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding: 30px;
+    }
+
+    .con-fill {
+      width: 535px;
+      height: 420px;
+      //background-color: olive;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 450px;
+      margin-top: -50px;
+      input {
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+        width: 529px;
+        font-size: 16px;
+        font-weight: 200;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-color: #f5f5f5;
+        border: 2px solid black;
+      }
+      .submit {
+        margin-top: 40px;
+        width: 133px;
+        height: 40px;
+        background-color: rgb(42, 4, 85);
+        //border-radius: 30px;
+        border: 1px solid transparent;
+        font-size: 15px;
+        font-weight: 200;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

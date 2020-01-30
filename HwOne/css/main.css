@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../images/nav.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  nav .links {
+    padding: 60px; }
+    nav .links a {
+      color: white;
+      font-size: 15px;
+      text-decoration: none; }
+    nav .links span {
+      margin: 0 10px;
+      font-size: 20px; }
+
+.help {
+  height: 100%;
+  width: 100%;
+  background-color: #16121b;
+  background-image: url(../images/NFL20.jpg); }
+  .help .help-cont {
+    height: 600px;
+    width: 100%; }
+    .help .help-cont h1 {
+      text-decoration: none;
+      color: white;
+      font-weight: lighter;
+      font-size: 200%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      padding: 30px; }
+    .help .help-cont .con-fill {
+      width: 535px;
+      height: 420px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 450px;
+      margin-top: -50px; }
+      .help .help-cont .con-fill input {
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+        width: 529px;
+        font-size: 16px;
+        font-weight: 200;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        background-color: #f5f5f5;
+        border: 2px solid black; }
+      .help .help-cont .con-fill .submit {
+        margin-top: 40px;
+        width: 133px;
+        height: 40px;
+        background-color: #2a0455;
+        border: 1px solid transparent;
+        font-size: 15px;
+        font-weight: 200;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        color: white;
+        cursor: pointer; }
+
+.hero {
+  height: 100%;
+  background-color: cornflowerblue;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/NFL20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .hero .callout {
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 200px; }
+    .hero .callout h1 {
+      font-size: 130%; }
+    .hero .callout h4 {
+      font-size: 70%; }
+    .hero .callout .submit {
+      margin-left: 400px;
+      width: 133px;
+      height: 40px;
+      background-color: #2a0455;
+      border: 1px solid transparent;
+      font-size: 15px;
+      font-weight: 200;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      color: white;
+      cursor: pointer; }
+  .hero .logo {
+    font-size: 400%;
+    color: whitesmoke;
+    margin-bottom: 700px;
+    margin-right: 500px;
+    padding: 30px; }
+    .hero .logo span {
+      font-size: 30%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      font-weight: thin; }
+
+.game {
+  height: 100%;
+  width: 100%;
+  background-color: #211e24; }
+  .game .game-content {
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    background-image: url(../images/Malhomes.jpg);
+    background-size: cover;
+    background-position: 50% 50%; }
+    .game .game-content h2 {
+      color: white;
+      font-size: 250%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      text-align: center;
+      display: flex;
+      justify-content: flex-end; }
+    .game .game-content .left {
+      width: 600px;
+      height: 100%;
+      background-color: #0d021a;
+      text-align: left;
+      font-weight: 400;
+      padding: 60px; }
+      .game .game-content .left h1 {
+        color: white;
+        font-size: 270%;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        margin-bottom: 50px; }
+      .game .game-content .left p {
+        color: white;
+        font-size: 240%;
+        font-weight: 200;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        margin-bottom: 50px; }
+      .game .game-content .left .submit {
+        margin-left: 150px;
+        width: 133px;
+        height: 40px;
+        background-color: #2a0455;
+        border: 1px solid transparent;
+        font-size: 15px;
+        font-weight: 200;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        color: white;
+        cursor: pointer; }
