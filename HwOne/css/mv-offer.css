@@ -1,0 +1,55 @@
+.mv-offer {
+  background-color: darkolivegreen;
+  height: 150px;
+  width: 100%; }
+  .mv-offer .mv-hold {
+    height: 150px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+    .mv-offer .mv-hold .loot {
+      padding-top: 40px;
+      background-color: #0d021a;
+      height: 100%;
+      width: 400px;
+      cursor: pointer;
+      font-size: 120%; }
+    .mv-offer .mv-hold .ship {
+      padding-top: 40px;
+      background-color: #0d021a;
+      height: 100%;
+      width: 400px;
+      cursor: pointer;
+      font-size: 120%; }
+    .mv-offer .mv-hold .show {
+      padding-top: 40px;
+      background-color: #0d021a;
+      height: 100%;
+      width: 400px;
+      cursor: pointer;
+      font-size: 120%; }
+    .mv-offer .mv-hold .stat {
+      padding-top: 40px;
+      background-color: #0d021a;
+      height: 100%;
+      width: 400px;
+      cursor: pointer;
+      font-size: 120%; }
+    .mv-offer .mv-hold .submit {
+      width: 133px;
+      height: 30px;
+      background-color: #2a0455;
+      border: 1px solid transparent;
+      font-size: 15px;
+      font-weight: 200;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      color: white;
+      cursor: pointer; }

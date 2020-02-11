@@ -8,26 +8,19 @@ nav {
   justify-content: space-between;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url(../images/nav.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+    url(../images/tw-hero.jpg);
 
   .links {
-    //display: flex;
-    //align-items: flex-start;
-    //justify-content: flex-start;
-    //margin-left: 1025px;
+    margin-left: 1250px;
     //background-color: black;
-    padding: 60px;
+    //padding: 60px;
+    color: white;
 
     a {
-      color: white;
+      color: whitesmoke;
       font-size: 15px;
       text-decoration: none;
     }
@@ -36,5 +29,12 @@ nav {
       margin: 0 10px;
       font-size: 20px;
     }
+  }
+  .logo {
+    //background-color: antiquewhite;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
   }
 }
